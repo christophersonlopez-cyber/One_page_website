@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Page Website</title>
     <link rel="stylesheet" href="./css/one_page_website.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="nav-container">
@@ -34,110 +35,23 @@
        
     <!--For Gallery-->
     <section id="gallery">
-        <div class="container">
-            <h1>Gallery</h1>
-            <div class="flex-container">
-                <!--photo container-->
-                <div class="photocontainer">
-                    <div class="photo">
-                        <img src="./images/thumb/thumbnail_1.jpg" width="150" alt="thumbnail_1 image">
-                        <div class="photo_overlay">
-                            <h1 class="white_head">Click to Enlarge</h1>
-                            <p>We have several space</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End photo-->
-                <!--photo container-->
-                <div class="photocontainer">
-                    <div class="photo">
-                        <img src="./images/thumb/thumbnail_2.jpg" width=150px alt="thumbnail_2 image">
-                        <div class="photo_overlay">
-                            <h1 class="white_head">Click to Enlarge</h1>
-                            <p>We have several space</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End photo-->
-                <!--photo container-->
-                <div class="photocontainer">
-                    <div class="photo">
-                          <img src="./images/thumb/thumbnail_3.jpg" width=150px alt="thumbnail_3 image">
-                        <div class="photo_overlay">
-                            <h1 class="white_head">Click to Enlarge</h1>
-                            <p>We have several space</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End photo-->
-                <!--photo container-->
-                <div class="photocontainer">
-                    <div class="photo">
-                          <img src="./images/thumb/thumbnail_4.jpg" width=150px alt="thumbnail_4 image">
-                        <div class="photo_overlay">
-                            <h1 class="white_head">Click to Enlarge</h1>
-                            <p>We have several space</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End photo-->
-                <!--photo container-->
-                <div class="photocontainer">
-                    <div class="photo">
-                       <img src="./images/thumb/thumbnail_5.jpg" width=150px alt="thumbnail_5 image">
-                        <div class="photo_overlay">
-                            <h1 class="white_head">Click to Enlarge</h1>
-                            <p>We have several space</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End photo-->
-                <!--photo container-->
-                <div class="photocontainer">
-                    <div class="photo">
-                         <img src="./images/thumb/thumbnail_6.jpg" width=150px alt="thumbnail_6 image">
-                        <div class="photo_overlay">
-                            <h1 class="white_head">Click to Enlarge</h1>
-                            <p>We have several space</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End photo-->
-                <!--photo container-->
-                <div class="photocontainer">
-                    <div class="photo">
-                         <img src="./images/thumb/thumbnail_7.jpg" width=150px alt="thumbnail_7 image">
-                        <div class="photo_overlay">
-                            <h1 class="white_head">Click to Enlarge</h1>
-                            <p>We have several space</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End photo-->
-                <!--photo container-->
-                <div class="photocontainer">
-                    <div class="photo">
-                         <img src="./images/thumb/thumbnail_8.jpg" width=150px alt="thumbnail_8 image">
-                        <div class="photo_overlay">
-                            <h1 class="white_head">Click to Enlarge</h1>
-                            <p>We have several space</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End photo-->
-                <!--photo container-->
-                <div class="photocontainer">
-                    <div class="photo">
-                          <img src="./images/thumb/thumbnail_9.jpg" width=150px alt="thumbnail_9 image">
-                        <div class="photo_overlay">
-                            <h1 class="white_head">Click to Enlarge</h1>
-                            <p>We have several space</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End photo-->
-            </div>
+           
+        <div class="gallery">
+            <img src="./images/thumb/thumbnail_1.jpg" alt="Image 1" class="gallery-item">
+            <img src="./images/thumb/thumbnail_2.jpg" alt="Image 2" class="gallery-item">
+            <img src="./images/thumb/thumbnail_3.jpg" alt="Image 3" class="gallery-item">
+            <img src="./images/thumb/thumbnail_4.jpg" alt="Image 4" class="gallery-item">
+ 
         </div>
+
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+        </div>
+
     </section>
     <section id="video">
         <div>
@@ -176,6 +90,7 @@
     <!--for footer-->
     <div>
         &copy;2025 This is my sample Website by: Christopher Son Lopez
-  
+        </div>
+        <script src="./js/onepage.js"></script>
 </body>
 </html>

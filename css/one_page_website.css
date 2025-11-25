@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(245, 249, 248);
     margin: 0;
     padding: 0;
 }
@@ -24,19 +24,19 @@ nav a {
     margin-right: 5px;
   display: inline-block; 
   padding: 10px;
-  background: rgb(241, 5, 5);
+  background: rgb(246, 224, 224);
   text-decoration: none;
 }
 
 ul li {
   text-align: right;
-  color: aliceblue;
+  color: rgb(10, 10, 10);
   margin-right: 20px;
   font-size: 15px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #home{
-     background-color: #6b21f3;
+     background-color: #fefefe;
    padding: 15px;
      text-align: center;
      margin-left: 100px;
@@ -45,24 +45,25 @@ ul li {
 }
 
 #gallery{
-    background-color: #ff0c0c;
+    height: 80vh;
+    background-color: #ffffff;
     text-align: center;
     margin-top: 0;
     margin-left:100px;
     margin-right: 100px;
-    margin-bottom: 0%;
+    
     
 }
 #video{
     margin-top: 0;
-    background-color: chartreuse;
+    background-color: rgb(255, 255, 255);
     margin:100px 100px;
     text-align: center;
     padding: 15px;
 }
 #contact{
     margin-top: 0;
-    background-color: rgb(243, 18, 156);
+    background-color: rgb(252, 251, 252);
     margin:100px 100px;
     text-align: center;
     padding: 15px;
